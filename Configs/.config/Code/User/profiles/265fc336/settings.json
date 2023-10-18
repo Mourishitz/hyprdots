@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Catppuccin-Mocha",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 16,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.minimap.side": "left",
+    "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+    "extensions.autoUpdate": false,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off",
+    "editor.fontLigatures": true,
+    "vscode_custom_css.imports": [
+        "file:///home/mourishitz/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "workbench.iconTheme": "icons",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "workbench.colorCustomizations": {},
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+}

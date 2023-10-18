@@ -90,6 +90,9 @@ sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," 
 # Arch-VueJS profile
 sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," $ConfDir/Code/User/profiles/-5e5d9e4a/settings.json
 
+# Arch-Laravel profile
+sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," $ConfDir/Code/User/profiles/265fc336/settings.json
+
 
 # kitty
 ln -fs $ConfDir/kitty/themes/${ThemeSet}.conf $ConfDir/kitty/themes/theme.conf
