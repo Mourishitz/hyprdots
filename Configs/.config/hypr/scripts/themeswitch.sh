@@ -85,7 +85,10 @@ fi
 
 
 # code
-sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," $ConfDir/Code/User/settings.json
+# Arch profile
+sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," $ConfDir/Code/User/profiles/-343991b2/settings.json
+# Arch-VueJS profile
+sed -i "/workbench.colorTheme/c\    \"workbench.colorTheme\": \"${ThemeSet}\"," $ConfDir/Code/User/profiles/-5e5d9e4a/settings.json
 
 
 # kitty
